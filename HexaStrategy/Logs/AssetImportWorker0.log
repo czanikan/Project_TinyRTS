@@ -1,102 +1,849 @@
 Using pre-set license
-Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1586; Version 2009; 64bit' Language: 'hu' Physical Memory: 32751 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+Built from '2021.3/staging' branch; Version is '2021.3.4f1 (cb45f9cae8b7) revision 13321721'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'hu' Physical Memory: 16075 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
- COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Github/Projects/Project_TinyRTS/HexaStrategy
+C:/Users/gob-boi/Documents/GitHub/Tiny_RTS/Project_TinyRTS/HexaStrategy
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63160
-Successfully changed project path to: D:/Github/Projects/Project_TinyRTS/HexaStrategy
-D:/Github/Projects/Project_TinyRTS/HexaStrategy
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 119.13 ms, found 2 plugins.
+63127
+Successfully changed project path to: C:/Users/gob-boi/Documents/GitHub/Tiny_RTS/Project_TinyRTS/HexaStrategy
+C:/Users/gob-boi/Documents/GitHub/Tiny_RTS/Project_TinyRTS/HexaStrategy
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 36.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.12f1 (b3b2c6512326)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Github/Projects/Project_TinyRTS/HexaStrategy/Assets
-GfxDevice: creating device client; threaded=0
+Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gob-boi/Documents/GitHub/Tiny_RTS/Project_TinyRTS/HexaStrategy/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA Quadro 6000 (ID=0x6d8)
-    Vendor:   
-    VRAM:     6081 MB
-    Driver:   21.21.13.7295
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3993 MB
+    Driver:   31.0.15.1659
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004241 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003738 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 97.86 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 59.15 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.319 seconds
+- Completed reload, in  0.660 seconds
+Domain Reload Profiling:
+	ReloadAssembly (661ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (468ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (83ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (281ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005667 seconds.
+Registered in 0.002103 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.883 seconds
+- Completed reload, in  0.931 seconds
+Domain Reload Profiling:
+	ReloadAssembly (932ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (711ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1563 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.4 MB.
-System memory in use after: 81.4 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2002.
-Total: 3.150400 ms (FindLiveObjects: 0.237300 ms CreateObjectMapping: 0.102800 ms MarkObjects: 2.676300 ms  DeleteObjects: 0.131500 ms)
+Unloading 1863 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 2319.
+Memory consumption went from 91.7 MB to 90.3 MB.
+Total: 3.127700 ms (FindLiveObjects: 0.178900 ms CreateObjectMapping: 0.041800 ms MarkObjects: 2.604900 ms  DeleteObjects: 0.300800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1294257.638207 seconds.
+  path: Assets/forest_Lod2.fbx
+  artifactKey: Guid(12dd92229a4fddc4c91cf1dcd85d3bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest_Lod2.fbx using Guid(12dd92229a4fddc4c91cf1dcd85d3bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576f966cfd647444291cd85e82b1ee37') in 0.411979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/forest_Lod1.fbx
+  artifactKey: Guid(75cdd948ccda8964790bcdae58938f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/forest_Lod1.fbx using Guid(75cdd948ccda8964790bcdae58938f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15b5f1117f77d114940820c4cd1471f8') in 0.031710 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Domain Reload Profiling:
+	ReloadAssembly (905ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (687ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (334ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.3 MB). Loaded Objects now: 2364.
+Memory consumption went from 90.7 MB to 89.4 MB.
+Total: 2.590800 ms (FindLiveObjects: 0.200000 ms CreateObjectMapping: 0.039200 ms MarkObjects: 2.050900 ms  DeleteObjects: 0.299200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/forest.prefab
-  artifactKey: Guid(d7e74969f81331e48877231129322e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/forest.prefab using Guid(d7e74969f81331e48877231129322e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2765902757d0adace30e5be40ed4ed39') in 0.186931 seconds 
-  Import took 0.191925 seconds .
-
+  Time since last request: 164.322813 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(a261fb3669a4e91408f96004d64ad7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(a261fb3669a4e91408f96004d64ad7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d95c629015db26cd9b932a9bb6d7e3') in 0.009803 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/Prefabs/farm_plot.prefab
-  artifactKey: Guid(8370b50da8f9f8a45a898cdf7c76ee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/farm_plot.prefab using Guid(8370b50da8f9f8a45a898cdf7c76ee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e8ad6e014d41c8afeaaa9b90cebd79') in 0.027719 seconds 
-  Import took 0.032351 seconds .
-
+  Time since last request: 5.933234 seconds.
+  path: Assets/Scripts/DayNightCycle.cs
+  artifactKey: Guid(b180c74e9fd05254a80de6113f218597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DayNightCycle.cs using Guid(b180c74e9fd05254a80de6113f218597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394c1194f4d23aef8f2c00fa7ef58c1d') in 0.010011 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Prefabs/house.prefab
-  artifactKey: Guid(6701986c09c6be0438c2bbd14f85e9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/house.prefab using Guid(6701986c09c6be0438c2bbd14f85e9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3615c2a165976eaca6210f5a5f745dd1') in 0.036456 seconds 
-  Import took 0.041481 seconds .
+  Time since last request: 172.241101 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/fbx/hex_rock_roadA.fbx
+  artifactKey: Guid(1f76c4df0b33f3442b57414d7ec86ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/fbx/hex_rock_roadA.fbx using Guid(1f76c4df0b33f3442b57414d7ec86ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2757fe98a9640b619655145fd109280b') in 0.128293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadB_detail.dae
+  artifactKey: Guid(210b1bcfd90e8cb48becd8d3fe8c94d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadB_detail.dae using Guid(210b1bcfd90e8cb48becd8d3fe8c94d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7215fa72dc684723a99a8044f6ebef85') in 0.072318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadC_detail.dae
+  artifactKey: Guid(3f3cff4dbc548a94db2c10bea4788693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadC_detail.dae using Guid(3f3cff4dbc548a94db2c10bea4788693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017fa592f6c078dd21d30051f07f4217') in 0.041552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_sand_roadD_detail.obj
+  artifactKey: Guid(15b3bcd352df0214ebbd892d51108487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_sand_roadD_detail.obj using Guid(15b3bcd352df0214ebbd892d51108487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d26aa027cdb4cb99c79ecd585849d9') in 0.049239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_detail.dae
+  artifactKey: Guid(b385e679f701b0c438e4fe3cd39b1c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_detail.dae using Guid(b385e679f701b0c438e4fe3cd39b1c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588f1e182c7cf901cf78682caf1e1e98') in 0.028770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_sand.obj
+  artifactKey: Guid(c888040a630b8474b99194e6effaabfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_sand.obj using Guid(c888040a630b8474b99194e6effaabfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3e6cf9e6d5ade84114f9e1c298458a') in 0.034684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadD.dae
+  artifactKey: Guid(5c009dd8c95128c40a0b486d1e42f075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadD.dae using Guid(5c009dd8c95128c40a0b486d1e42f075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfaec2588a2badf3d757409d5b91cf16') in 0.071345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadD_detail.dae
+  artifactKey: Guid(2cedc2053426dc448b0732399850e93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadD_detail.dae using Guid(2cedc2053426dc448b0732399850e93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882e5353aad1f95b28b2349a25a7ef6f') in 0.041255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_rock_roadJ_detail.dae
+  artifactKey: Guid(adc1784d3c952374baac5bd53098be18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_rock_roadJ_detail.dae using Guid(adc1784d3c952374baac5bd53098be18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512a013bb8825dbfcd4a4b81afeffe29') in 0.059878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_sand_detail.obj
+  artifactKey: Guid(4780a520c580e9f408e12c20ea75128f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_sand_detail.obj using Guid(4780a520c580e9f408e12c20ea75128f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d2fe96736b033373a97041981854c6') in 0.045093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadC.dae
+  artifactKey: Guid(d3300876054173441887b8a704e8556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadC.dae using Guid(d3300876054173441887b8a704e8556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce3f929391eebfe03edc04bab92d0dc') in 0.110667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadE.dae
+  artifactKey: Guid(fd60b576734445342901af5483aec7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadE.dae using Guid(fd60b576734445342901af5483aec7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc0b013536025b8f5e4130753bf4c62') in 0.032220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadB.dae
+  artifactKey: Guid(907d816d6c7991c48bd6c82698298e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadB.dae using Guid(907d816d6c7991c48bd6c82698298e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d48bef65c644bdb225fde4a39286568') in 0.028909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_rock_roadI_detail.dae
+  artifactKey: Guid(a05a63661a7f4854aaaff6122736c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_rock_roadI_detail.dae using Guid(a05a63661a7f4854aaaff6122736c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bac6d1251b5d4803785d4071e3f2560') in 0.042658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadA_detail.dae
+  artifactKey: Guid(f78f3cb9712c73b4b809491598f912bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadA_detail.dae using Guid(f78f3cb9712c73b4b809491598f912bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779f6c7ea9d634051914335733c9ab22') in 0.033420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.213649 seconds.
+  path: Assets/SimpleFX/Materials/FX_Base.mat
+  artifactKey: Guid(a0cec58fc32f482418596ffdf7c0d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleFX/Materials/FX_Base.mat using Guid(a0cec58fc32f482418596ffdf7c0d693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ed318e9fb6164ed6c3d1bf7e349655') in 0.014706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RTS_Camera/Demo/Projectors/Materials/ShadowProjector.mat
+  artifactKey: Guid(e30ff3588e719f34bbf0c66f22d97487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RTS_Camera/Demo/Projectors/Materials/ShadowProjector.mat using Guid(e30ff3588e719f34bbf0c66f22d97487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d6ae50cce54bc46278019387febee9') in 0.016159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/objects/obj/detail_rocks_small.obj
+  artifactKey: Guid(00c0a1e1a86d97a40a2f0be022e4430d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/objects/obj/detail_rocks_small.obj using Guid(00c0a1e1a86d97a40a2f0be022e4430d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36407ee431bfc032e45ff818d93243cb') in 0.027850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/objects/obj/house.obj
+  artifactKey: Guid(3de52bc8512a33e4db973c21a9b0f922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/objects/obj/house.obj using Guid(3de52bc8512a33e4db973c21a9b0f922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c55ad11b1ccd658cdcb7559bfea3875') in 0.103526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/objects/obj/barracks.obj
+  artifactKey: Guid(e5674790675baac4ebd7e35b12495d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/objects/obj/barracks.obj using Guid(e5674790675baac4ebd7e35b12495d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66d086fdc3cc4e03c2c1580009e53f3') in 0.061930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/objects/obj/bridge.obj
+  artifactKey: Guid(6aa500d7e2594f94b885359ee2b4b52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/objects/obj/bridge.obj using Guid(6aa500d7e2594f94b885359ee2b4b52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d403ae131eff9502840755d1da2eea') in 0.027450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecdad2fcbf450db9675490c4dd324c7') in 0.033504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/objects/obj/detail_forestB.obj
+  artifactKey: Guid(14915f78f0bb5f2429f8f904e4a0a5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/objects/obj/detail_forestB.obj using Guid(14915f78f0bb5f2429f8f904e4a0a5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08b511e58f1c17d3e2471147f4bc223') in 0.101134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/MK_Stone Dark.mat
+  artifactKey: Guid(48d0ab3c27e75bc4a9204e8c48ba3bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MK_Stone Dark.mat using Guid(48d0ab3c27e75bc4a9204e8c48ba3bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ce658979e57f0ee4e44a7b54e48d7d') in 0.247084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00131ea0d5dfa265389a215d9dbc9aa1') in 0.041594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/objects/obj/castle.obj
+  artifactKey: Guid(eae49355e417cf54b81ad03f1e4aacdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/objects/obj/castle.obj using Guid(eae49355e417cf54b81ad03f1e4aacdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5880cc6da116b7dffdffb751f27695') in 0.065104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/objects/obj/bridge_roofed.obj
+  artifactKey: Guid(2baf2630c41653d40af8f78ce3a83651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/objects/obj/bridge_roofed.obj using Guid(2baf2630c41653d40af8f78ce3a83651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f16c825259bdd3dbca67c87be04a747') in 0.047922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 158.729142 seconds.
+  path: Assets/Scripts/New Lighting Settings.lighting
+  artifactKey: Guid(c84215b84e21e0940b240dd13d34a6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/New Lighting Settings.lighting using Guid(c84215b84e21e0940b240dd13d34a6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eeed630b92809fadc55b93e58e1bcc6') in 0.035546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.228068 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_forest_roadC_detail.obj
+  artifactKey: Guid(83c29e8b33221cc4da346e275063c70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_forest_roadC_detail.obj using Guid(83c29e8b33221cc4da346e275063c70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbef20fb11a2d8d24147bc494462e301') in 0.122077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_sand_roadC.obj
+  artifactKey: Guid(2d76b39975bae394fb97fae740276a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_sand_roadC.obj using Guid(2d76b39975bae394fb97fae740276a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d94af285d563f02953cec72a68e0fc') in 0.033909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_rock_roadM.dae
+  artifactKey: Guid(0a4d0bf1927392549bcb7f32344120c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_rock_roadM.dae using Guid(0a4d0bf1927392549bcb7f32344120c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b778556ff94d1ac1d31ca983a9816e') in 0.043368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_rock_roadM_detail.dae
+  artifactKey: Guid(de3ee776a32835f4597eeb0de4927bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_rock_roadM_detail.dae using Guid(de3ee776a32835f4597eeb0de4927bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71952daabc7bbb0a6337681198b99484') in 0.043679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_sand_roadC_detail.obj
+  artifactKey: Guid(f2efa45283c227e478d809231cccb5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_sand_roadC_detail.obj using Guid(f2efa45283c227e478d809231cccb5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c85f46629b4054efe0bce6dcc53c8d9') in 0.093740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.175769 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_sand_roadA_detail.obj
+  artifactKey: Guid(104a0b463f274e04582fd41701e3109d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_sand_roadA_detail.obj using Guid(104a0b463f274e04582fd41701e3109d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126003466c83674331bf888626dc9f00') in 0.123212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_waterC_empty.dae
+  artifactKey: Guid(92918ccc0b3f8ba4bbf3c59001ee7d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_waterC_empty.dae using Guid(92918ccc0b3f8ba4bbf3c59001ee7d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca38fd6cb3f1d8234e94f0c3d2b5c712') in 0.032831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_waterC.dae
+  artifactKey: Guid(566d9f7542f650c4bb3a4266820db7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_waterC.dae using Guid(566d9f7542f650c4bb3a4266820db7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b0b94548b3ea265fde9ae8b95259b6') in 0.038481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_waterD_detail.dae
+  artifactKey: Guid(7413e3d83000ee44d801573201fc3efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_waterD_detail.dae using Guid(7413e3d83000ee44d801573201fc3efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708617499f2269dc98a866714203ab1a') in 0.043342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_waterC_detail.dae
+  artifactKey: Guid(7f976d730cb373b41b9ffd2e8020e164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_waterC_detail.dae using Guid(7f976d730cb373b41b9ffd2e8020e164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13322175c92d2cb1b11f3e567a6ddcc1') in 0.088755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadH.dae
+  artifactKey: Guid(f24238b9e7ac60442a0d5244697676c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadH.dae using Guid(f24238b9e7ac60442a0d5244697676c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764eb62ea0b3509873515d2dcd52dfe4') in 0.028874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/square/fbx/square_sand_waterOuterCorner.fbx
+  artifactKey: Guid(a03b32afda27e614ca7b2237d125db8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/square/fbx/square_sand_waterOuterCorner.fbx using Guid(a03b32afda27e614ca7b2237d125db8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e879b50bbaa17b223572b281379c0f7') in 0.228795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadK.dae
+  artifactKey: Guid(18cf77145d6994046a98ecdf01f10b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadK.dae using Guid(18cf77145d6994046a98ecdf01f10b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb0e245f88af182459ea55e423e2b56') in 0.029523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadK_detail.dae
+  artifactKey: Guid(741e66ad493abba40b019d406117f790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadK_detail.dae using Guid(741e66ad493abba40b019d406117f790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4ef5a71733054d377e5b5fe42c3c84') in 0.040083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_rock_roadM_detail.obj
+  artifactKey: Guid(58a9097c87c795e4594298166b1f49b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_rock_roadM_detail.obj using Guid(58a9097c87c795e4594298166b1f49b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211234ed06a23697f15c777ffbdfb4a1') in 0.040812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadJ.dae
+  artifactKey: Guid(d67d7a0be19bba74182df991fce79dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadJ.dae using Guid(d67d7a0be19bba74182df991fce79dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67dda5e6b84b7b35cf092392365f6fad') in 0.030218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadI_detail.dae
+  artifactKey: Guid(428bac4ee4c0c82439da0079c2f9e283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadI_detail.dae using Guid(428bac4ee4c0c82439da0079c2f9e283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6917b65cdb0db32d76125e65e751cc21') in 0.054057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadH_detail.dae
+  artifactKey: Guid(767744b560a6def4a80e01457db3791a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadH_detail.dae using Guid(767744b560a6def4a80e01457db3791a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf9a153bc7330e213958eab4efed3e7') in 0.054760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadI.dae
+  artifactKey: Guid(320ac898589b385449ff8b9e42f8fdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadI.dae using Guid(320ac898589b385449ff8b9e42f8fdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5766777c03a35381bff81b94de6ac425') in 0.026078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/fbx/hex_forest_roadB.fbx
+  artifactKey: Guid(ccc5dc7dc54d91a4498825196bc65565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/fbx/hex_forest_roadB.fbx using Guid(ccc5dc7dc54d91a4498825196bc65565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4193a33558301c6cde635b7b66ee8224') in 0.032761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadL_detail.dae
+  artifactKey: Guid(01f8e8145c790fa4fac1a0b8eb1a5345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadL_detail.dae using Guid(01f8e8145c790fa4fac1a0b8eb1a5345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ebd725ac41d86ae75313f35f3ab429') in 0.035687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadG_detail.dae
+  artifactKey: Guid(55d3f10c488e5c642b0500d954c945e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_roadG_detail.dae using Guid(55d3f10c488e5c642b0500d954c945e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a90a3d027c5da42ba4cb65ee97c878') in 0.031859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.098482 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_transitionB.dae
+  artifactKey: Guid(04dd92d4794a32b438b9d450b3c04751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_sand_transitionB.dae using Guid(04dd92d4794a32b438b9d450b3c04751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11ea3257b9078409b404fbdbd60b9a0') in 0.039420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_forest_roadG.dae
+  artifactKey: Guid(355bb238d008d6b429f59ee1865a201f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_forest_roadG.dae using Guid(355bb238d008d6b429f59ee1865a201f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea87d58cf7cb26afac0ee167d655275') in 0.045538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_sand_waterA_empty.obj
+  artifactKey: Guid(f78cc6a4965d4aa47b1ef8c0d8dfa6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/obj/hex_sand_waterA_empty.obj using Guid(f78cc6a4965d4aa47b1ef8c0d8dfa6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078d999747070defbb55ce98c8d75669') in 0.028362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_rock_roadH_detail.dae
+  artifactKey: Guid(cb4b1219eeada4c4a889f41d5cc60e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_rock_roadH_detail.dae using Guid(cb4b1219eeada4c4a889f41d5cc60e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54856a3d6b5baf9aaa1912b735d63cbc') in 0.040273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_rock_roadG_detail.dae
+  artifactKey: Guid(e3f90cacfc6d5714caf8f3acf1e8fa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/tiles/hex/dae/hex_rock_roadG_detail.dae using Guid(e3f90cacfc6d5714caf8f3acf1e8fa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ac67b38721778c1585eece068797eb') in 0.098555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.428742 seconds.
+  path: Assets/SimpleSky/_Materials/SimpleSky.mat
+  artifactKey: Guid(e68f77e240a7f8643b5cc4253dc37516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleSky/_Materials/SimpleSky.mat using Guid(e68f77e240a7f8643b5cc4253dc37516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb11882da874e6c823ef0948ddd07873') in 0.037226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.996902 seconds.
+  path: Assets/_MK/MKToonFree/Demo/Model/Materials/rat-head.mat
+  artifactKey: Guid(dc14de4f1681d664a9278fa7484e035c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_MK/MKToonFree/Demo/Model/Materials/rat-head.mat using Guid(dc14de4f1681d664a9278fa7484e035c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c168bf3b52b35588d87ebc9f1dff6af') in 0.199350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/objects/fbx/mountain.fbx
+  artifactKey: Guid(e67bdb223f6fa0047be0a315dcf697b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/objects/fbx/mountain.fbx using Guid(e67bdb223f6fa0047be0a315dcf697b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b729a6368505af843cbe36c0eda98d24') in 0.070472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/objects/fbx/house.fbx
+  artifactKey: Guid(fde37b08a7c5307498e04d0dde3da102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/objects/fbx/house.fbx using Guid(fde37b08a7c5307498e04d0dde3da102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26baa98b1abd2a9c4b36d1e02d337240') in 0.053442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/objects/fbx/archeryrange.fbx
+  artifactKey: Guid(1f0dead2075105445beca080d16956eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/objects/fbx/archeryrange.fbx using Guid(1f0dead2075105445beca080d16956eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd075cc6bc7dbab5eaa6412e7e4a9232a') in 0.074966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/objects/fbx/detail_rocks.fbx
+  artifactKey: Guid(225cd844ed75fd84d88b098b0627f012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/objects/fbx/detail_rocks.fbx using Guid(225cd844ed75fd84d88b098b0627f012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548bcb851875290499e3ccdd96c25cc0') in 0.024479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/objects/fbx/market.fbx
+  artifactKey: Guid(3d78d940ead4a774297753d94b5de0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/objects/fbx/market.fbx using Guid(3d78d940ead4a774297753d94b5de0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff973f482fc1f13493281539907312d') in 0.123161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/objects/fbx/watermill.fbx
+  artifactKey: Guid(8030f1d6bda69624e856f6adc08913f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/objects/fbx/watermill.fbx using Guid(8030f1d6bda69624e856f6adc08913f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc538cda60c1999b6377f8e6edea350c') in 0.086097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/objects/fbx/detail_hill.fbx
+  artifactKey: Guid(11cd84a7c47b7d948b20bcb30c059699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/objects/fbx/detail_hill.fbx using Guid(11cd84a7c47b7d948b20bcb30c059699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50aeed09ed7dc81f4a3c3b812b1392ab') in 0.092401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/KayKit Medieval Builder Pack/Models/objects/fbx/wall_gate.fbx
+  artifactKey: Guid(a830f9b88380e5d44a0003b0609d5e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/KayKit Medieval Builder Pack/Models/objects/fbx/wall_gate.fbx using Guid(a830f9b88380e5d44a0003b0609d5e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85eed57f14a2ea8a89e25c90d76afeb3') in 0.028025 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002116 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
+Domain Reload Profiling:
+	ReloadAssembly (933ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (733ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (309ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.3 MB). Loaded Objects now: 2370.
+Memory consumption went from 91.3 MB to 90.0 MB.
+Total: 2.782700 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.037700 ms MarkObjects: 2.258200 ms  DeleteObjects: 0.266900 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002739 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Domain Reload Profiling:
+	ReloadAssembly (905ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (627ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.3 MB). Loaded Objects now: 2373.
+Memory consumption went from 91.4 MB to 90.1 MB.
+Total: 4.584500 ms (FindLiveObjects: 1.918200 ms CreateObjectMapping: 0.192100 ms MarkObjects: 2.149700 ms  DeleteObjects: 0.322700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003459 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.863 seconds
+Domain Reload Profiling:
+	ReloadAssembly (864ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (639ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.3 MB). Loaded Objects now: 2376.
+Memory consumption went from 91.4 MB to 90.1 MB.
+Total: 2.514900 ms (FindLiveObjects: 0.171800 ms CreateObjectMapping: 0.077000 ms MarkObjects: 1.945000 ms  DeleteObjects: 0.319800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003163 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Domain Reload Profiling:
+	ReloadAssembly (935ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (675ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (188ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (236ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (1.3 MB). Loaded Objects now: 2379.
+Memory consumption went from 91.4 MB to 90.1 MB.
+Total: 2.670100 ms (FindLiveObjects: 0.200100 ms CreateObjectMapping: 0.047600 ms MarkObjects: 2.084600 ms  DeleteObjects: 0.335800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
