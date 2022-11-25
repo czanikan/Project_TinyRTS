@@ -30,6 +30,7 @@ RectTransform:
   m_LocalRotation: {x: 0.5, y: -0, z: -0, w: 0.8660254}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.024999999, y: 0.024999997, z: 0.024999997}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1344245683563769893}
   m_Father: {fileID: 1628975552484807631}
@@ -141,6 +142,7 @@ Transform:
   m_LocalRotation: {x: 0.000000081460335, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1628975552484807631}
   m_RootOrder: 2
@@ -164,6 +166,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -195,18 +198,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!225 &7693384895654143191
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1344245683563769894}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
 --- !u!1 &2148384212365298037
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,6 +229,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8939746539429353280}
   - {fileID: 4815820967174673052}
@@ -263,10 +255,11 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
+  m_ReflectionProbeUsage: 3
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
@@ -373,6 +366,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1628975552484807631}
   m_RootOrder: 0
@@ -546,13 +540,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c162c279d1e14a419a9e9ed58d535f8, type: 3}
---- !u!1 &1344245683563769894 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6736819384772585248, guid: 8c162c279d1e14a419a9e9ed58d535f8, type: 3}
-  m_PrefabInstance: {fileID: 5753988277379946246}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1344245683563769893 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6736819384772585251, guid: 8c162c279d1e14a419a9e9ed58d535f8, type: 3}
   m_PrefabInstance: {fileID: 5753988277379946246}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1344245683563769894 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6736819384772585248, guid: 8c162c279d1e14a419a9e9ed58d535f8, type: 3}
+  m_PrefabInstance: {fileID: 5753988277379946246}
+  m_PrefabAsset: {fileID: 0}
+--- !u!225 &7693384895654143191
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344245683563769894}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
