@@ -355,6 +355,7 @@
 "Assets/Scripts/Tile.cs"
 "Assets/Scripts/TileManager.cs"
 "Assets/Scripts/TurnToCamera.cs"
+"Assets/Scripts/WeatherManager.cs"
 "Assets/ToonWater/CameraDepthTextureMode.cs"
 "Assets/ToonWater/NormalsReplacementShader.cs"
 "Assets/ToonWater/WaterBob.cs"

@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\TileManager.cs" />
     <Compile Include="Assets\Scripts\Resource.cs" />
     <Compile Include="Assets\Scripts\DayNightCycle.cs" />
+    <Compile Include="Assets\Scripts\WeatherManager.cs" />
     <Compile Include="Assets\Scripts\CanvasCamera.cs" />
     <Compile Include="Assets\Scripts\GatherSystem.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />

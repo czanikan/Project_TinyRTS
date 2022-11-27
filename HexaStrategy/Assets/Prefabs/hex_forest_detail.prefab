@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8903990656185492938}
   - component: {fileID: 2442610269799100734}
   - component: {fileID: 2439337613360569958}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,7 +243,7 @@ LODGroup:
   serializedVersion: 2
   m_LocalReferencePoint: {x: 0, y: 0.5, z: 0}
   m_Size: 2.3094
-  m_FadeMode: 2
+  m_FadeMode: 0
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
@@ -251,7 +251,7 @@ LODGroup:
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2973753457194864103}
-  - screenRelativeHeight: 0.05630386
+  - screenRelativeHeight: 0.05
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 2823268108225513851}
@@ -379,8 +379,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 5086651555208874235}
     m_Modifications:
     - target: {fileID: 2963339670940473496, guid: 8c162c279d1e14a419a9e9ed58d535f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2963339670940473496, guid: 8c162c279d1e14a419a9e9ed58d535f8, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003808932562950164, guid: 8c162c279d1e14a419a9e9ed58d535f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4003808932562950164, guid: 8c162c279d1e14a419a9e9ed58d535f8, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -389,6 +397,10 @@ PrefabInstance:
     - target: {fileID: 6736819384772585248, guid: 8c162c279d1e14a419a9e9ed58d535f8, type: 3}
       propertyPath: m_Name
       value: RadialMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6736819384772585248, guid: 8c162c279d1e14a419a9e9ed58d535f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6736819384772585248, guid: 8c162c279d1e14a419a9e9ed58d535f8, type: 3}
       propertyPath: m_StaticEditorFlags

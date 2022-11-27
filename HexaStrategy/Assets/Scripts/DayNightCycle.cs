@@ -9,6 +9,7 @@ public class DayNightCycle : MonoBehaviour
     public bool showGUI = true;
     public float latitudeAngle = 45f;
     public Transform sunTilt;
+    public WeatherManager weatherManager;
 
     private float day;
     private float min;
@@ -17,6 +18,9 @@ public class DayNightCycle : MonoBehaviour
     private float texOffset;
     private Material skyMat;
     private Transform sunOrbit;
+    public Light sun;
+
+    private float sunInitialIntensity;
 
     [SerializeField]
     private TextMeshProUGUI dayLabel;
@@ -30,7 +34,9 @@ public class DayNightCycle : MonoBehaviour
 
         sunTilt.eulerAngles = new Vector3(Mathf.Clamp(latitudeAngle, 0, 90), 0, 0);
 
-        if(secondsPerMinute == 0)
+        sunInitialIntensity = sun.intensity;
+
+        if (secondsPerMinute == 0)
         {
             Debug.LogError("Error! Can't have a time of zero, changed to 0.01 instead.");
             secondsPerMinute = 0.01f;
@@ -40,6 +46,7 @@ public class DayNightCycle : MonoBehaviour
     private void Update()
     {
         UpdateSky();
+        UpdateSun();
 
         dayLabel.text = "Day " + day.ToString();
         timeLabel.text = digitalDisplay(Mathf.Floor(min / 60).ToString()) + ":" + digitalDisplay((min - Mathf.Floor(min / 60) * 60).ToString());
@@ -48,13 +55,23 @@ public class DayNightCycle : MonoBehaviour
     {
         smoothMin = (Time.time / secondsPerMinute) + (startTime * 60);
         day = Mathf.Floor(smoothMin / 1440) + 1;
+        if (smoothMin % 1440 == 0)
+        {
+            Debug.Log("Next Day");
+            weatherManager.ChangeWeather();
+        } 
 
         smoothMin = smoothMin - (Mathf.Floor(smoothMin / 1440) * 1440);
         min = Mathf.Round(smoothMin);
 
-        sunOrbit.localEulerAngles = new Vector3(0, smoothMin / 4, 0);
         texOffset = Mathf.Cos((((smoothMin) / 1440) * 2) * Mathf.PI) * 0.25f + 0.25f;
         skyMat.mainTextureOffset = new Vector2(Mathf.Round((texOffset - (Mathf.Floor(texOffset / 360) * 360)) * 1000) / 1000, 0);
+    }
+    void UpdateSun()
+    {
+        sunOrbit.localEulerAngles = new Vector3(0, smoothMin / 4, 0);
+
+        //sun.intensity = sunInitialIntensity * intensityMultiplier;
     }
 
     string digitalDisplay(string num)
