@@ -3,7 +3,7 @@
  
  You can build different buildings to the free tiles like House, Farm plot, Castle, Lumbermill or Barrac. Some of the buildings can collect resource from neighbour tiles if it has a special item on it. For example: Houses can make food if farm plots are near or Lumbermills wood if forest tiles close to it. The amount is gathered resource is based on the quantity of the special tiles in the range. 
  
-## Future features:
+## TODO:
  * ~~Day-Night Cycle~~
  * Weather System (WIP)
  * Building destroying
