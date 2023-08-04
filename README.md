@@ -1,5 +1,7 @@
 # Project Tiny RTS - Hexagon based strategy game
 Tiny RTS is a hexagon based procedural generated mini strategy game. This is a demo project so there is no main goal of the game. This one is for learning and showcase.
+
+![Showcase gif][(https://github.com/czanikan/Project_TinyRTS/blob/master/gifs/building.gif)]
  
  You can build different buildings to the free tiles like House, Farm plot, Castle, Lumbermill or Barrac. Some of the buildings can collect resource from neighbour tiles if it has a special item on it. For example: Houses can make food if farm plots are near or Lumbermills wood if forest tiles close to it. The amount is gathered resource is based on the quantity of the special tiles in the range. 
  
